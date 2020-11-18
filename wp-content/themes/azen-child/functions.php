@@ -13,3 +13,36 @@
 }
 
 add_action( 'wp_enqueue_scripts', 'azen_child_enqueue_styles', 11 );
+
+add_filter('gettext',  'translate_text');
+add_filter('ngettext',  'translate_text');
+function translate_text($translated) {
+	$translated = str_ireplace('Search Results for',  '
+Resultados de búsqueda de',  $translated);
+	$translated = str_ireplace('Nothing Found',  '
+Nada Encontrado',  $translated);
+	$translated = str_ireplace('Home',  'Inicio',  $translated);
+	$translated = str_ireplace('
+Product	',  '
+Producto',  $translated);
+	$translated = str_ireplace('Your order',  '
+Su pedido',  $translated);
+	$translated = str_ireplace('sale',  'venta',  $translated);
+	$translated = str_ireplace('close',  'cerrar',  $translated);
+	$translated = str_ireplace('by',  '
+por',  $translated);
+	$translated = str_ireplace('No products in the cart.',  '
+No hay productos en el carrito.',  $translated);
+	$translated = str_ireplace('view cart',  '
+ver carrito',  $translated);
+		$translated = str_ireplace('There was a problem with your submission. Errors are marked below.',  'Hubo un problema con el envío. Los errores están marcados a continuación.',  $translated);
+$translated = str_ireplace('This field cannot be blank.',  'Este campo no puede estar vacío.',  $translated);
+	$translated = str_ireplace('Qty',  '
+Cant',  $translated);
+	$translated = str_ireplace('Sorry, but nothing matched your search terms. Please try again with some different keywords.',  'Lo siento, pero nada coincide con los términos de búsqueda. Vuelva a intentarlo con algunas palabras clave diferentes.',  $translated);
+	$translated = str_ireplace('Oops ! Page you are looking for does not exist.',  '
+¡Ups! La página que está buscando no existe.',  $translated);
+		$translated = str_ireplace('back to',  'de regreso',  $translated);
+	return $translated;
+
+}

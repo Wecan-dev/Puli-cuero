@@ -28,7 +28,7 @@ class Physc_search_widget extends WP_Widget {
 				<div class="closeicon"></div>
 				<div class="modal-search-content">
 					<form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ) ?>">
-						<input type="search" class="search-field" placeholder="<?php esc_attr_e( 'Search Here ...', 'physc-builder' ) ?>" value="" name="s" title="<?php esc_attr_e( 'Search for:', 'physc-builder' ) ?>">
+						<input type="search" class="search-field" placeholder="<?php esc_attr_e( 'Busca aquí ...', 'physc-builder' ) ?>" value="" name="s" title="<?php esc_attr_e( 'Search for:', 'physc-builder' ) ?>">
 						<button type="submit" class="search-submit"><span class="zmdi zmdi-search"></span></button>
 					</form>
 				</div>
