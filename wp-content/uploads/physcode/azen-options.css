@@ -364,11 +364,7 @@ h6, .sc-list-posts .news-details .post-title a, .content-area .content-blog-maso
 
   h5 {
     font-size: 16px; } }
-.wrapper-container { background-color: #fff}@font-face {
-font-family: 'TwentytwelveSlab-Regular';
-src: url("../azen/custom/TwentytwelveSlab-Regular.woff") format('woff');
-}
-
+.wrapper-container { background-color: #fff}
 
 
 
@@ -827,10 +823,4 @@ background-color:#f4d3d6;
     justify-content: center;
     width: 100%;
     padding-top: 30px;
-}
-
-
-
-
-
-
+}				
