@@ -1,0 +1,2 @@
+2020-11-26T15:00:05+00:00 CRITICAL Out of memory (allocated 83886080) (tried to allocate 20480 bytes) en /var/www/html/Puli-cuero/wp-includes/class-wp-hook.php en la línea 280
+

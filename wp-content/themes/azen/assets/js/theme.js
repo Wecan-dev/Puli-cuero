@@ -287,7 +287,7 @@ var custom_js = {
 					speed         : speed,
 					dots          : true,
 					autoplay      : true,
-					autoplaySpeed : speed,
+					autoplaySpeed : 1000,
 					slidesToShow  : item,
 					slidesToScroll: item,
 					centerMode    : false,

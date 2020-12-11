@@ -1,0 +1,2 @@
+2020-11-27T19:55:46+00:00 CRITICAL Cannot redeclare translate_text() (previously declared in /var/www/html/Puli-cuero/wp-content/themes/azen-child/functions.php:19) en /var/www/html/Puli-cuero/wp-content/themes/azen-child/functions.php en la línea 60
+

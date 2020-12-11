@@ -56,7 +56,7 @@ if (azen_get_option('main_menu_style') == 'header_v3') {
 <?php
 echo '<div class="minicart-content woocommerce">
     <div class="widget_shopping_cart_contents">
-        <p class="close-cart">close</p>
+        <p class="close-cart">Cerrar</p>
         <div class="widget_shopping_cart_content">
          </div>
          </div>
